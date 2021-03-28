@@ -1,8 +1,7 @@
 # Dining-Philosophers-Problem
-For CSE 4095 Cloud Computing and Distributed Systems
+
 Narendran Krishnan
-CSE 4095 Take Home Quiz 1
-Professor Bradford
+
 
 Basic explanation of Java code and how the solution works.
 There are 3 solutions to deadlock issue of the dining philosopher problem posed by Dijkstra. Two them are simple to explain. One is the arbitrator solution, which involves telling a philosopher to only pick up two forks at a time. This way, one fork does not fall into the hands of each philosopher. However, it is called the arbitrator solution because the “waiter” has to deliver this instruction to the philosopher. The philosopher can only pick up the forks when the signal that there are two available forks is relayed to him/her. 
